@@ -8,7 +8,7 @@ export default function LoginScreen({ navigation }: any) {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = () => {
-    // Aquí puedes implementar la lógica de inicio de sesión
+    
     Alert.alert('Inicio de Sesión', `Email: ${email}\nContraseña: ${password}`);
   };
 
@@ -53,16 +53,16 @@ const styles = StyleSheet.create({
   welcomeTitle: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#000', // Color negro
+    color: '#000', 
     marginBottom: 10,
-    marginTop: 20, // Reducir el margen superior para acercar el título a la parte superior
-    alignSelf: 'flex-start', // Alinear a la izquierda
+    marginTop: 20, 
+    alignSelf: 'flex-start', 
   },
   subtitle: {
     fontSize: 16,
-    color: '#000', // Color negro
+    color: '#000', 
     marginBottom: 20,
-    alignSelf: 'flex-start', // Alinear a la izquierda
+    alignSelf: 'flex-start', 
   },
   input: {
     height: 50,
